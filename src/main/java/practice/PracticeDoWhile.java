@@ -9,7 +9,7 @@ public class PracticeDoWhile {
 		do {
 			System.out.println(num);
 			
-			num = num--;
-		} while (num <= 0);
+			num--;
+		} while (num >= 0);
 	}
 }
